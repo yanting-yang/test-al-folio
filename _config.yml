@@ -72,6 +72,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 scholar_userid: rbRk4Z4AAAAJ # your Google Scholar ID
 
 contact_note: >
+  Email is usually the best way to reach me.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -148,12 +149,8 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
-  - bin/
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - package.json
-  - package-lock.json
   - purgecss.config.js
 keep_files:
   - CNAME
